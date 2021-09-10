@@ -89,10 +89,10 @@
 #define WITH_2ETX 0
 #define WITH_COMMON_ANCESTOR 1
 
-#define CA_RULE 3  /* 1: strict, 2: medium, 3: soft */
+#define CA_RULE 2  /* 1: strict, 2: medium, 3: soft */
 
 #if WITH_COMMON_ANCESTOR
-#define ADAPTIVE_CA 0
+#define ADAPTIVE_CA 1
 #endif
 
 #define WITH_NON_COMMON_ANCESTOR 0

@@ -1,6 +1,6 @@
 {
-    "ADAPTIVE_CA": false,
-    "CA": 3,
+    "ADAPTIVE_CA": true,
+    "CA": 2,
     "CSC": "case_6x5.csc",
     "MAKE_FILE": {
         "APP": [
@@ -63,7 +63,7 @@
     "RTX": 1,
     "enable": true,
     "example_dir": "examples/ipv6/disjoint",
-    "name": "9327bb017d883037e09c543374eb26d02f51d0f1dfc065ae2863be1ce602d0e7",
+    "name": "eaaa7f89d4cf8fe5636ca69024c849cfb247cc0064ea12d7f552c7bbd3a30bf1",
     "number_of_packets": 250,
     "preferredParentKillIntervalTimeInMicroSec": 300000000,
     "preferredParentKillMaxHopsFromSender": 0,
