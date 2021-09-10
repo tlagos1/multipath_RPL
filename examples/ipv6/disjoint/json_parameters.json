@@ -1,0 +1,79 @@
+{
+    "ADAPTIVE_CA": false,
+    "CA": 1,
+    "CSC": "case_6x5.csc",
+    "MAKE_FILE": {
+        "APP": [
+            {
+                "name": "orchestra"
+            },
+            {
+                "name": "static-scheduler"
+            },
+            {
+                "name": "second-parent-selection"
+            },
+            {
+                "name": "powertrace"
+            }
+        ],
+        "CFLAGS": [
+            {
+                "name": "CASE_6x5"
+            },
+            {
+                "ARQ": true,
+                "OVERH": true,
+                "ROOT_CHILDREN_OVERH_COMPENSATION_ENABLED": true,
+                "name": "STATIC_SCHEDULER",
+                "type": "6x5"
+            },
+            {
+                "name": "PACKET_REPLICATION_AND_ELIMINATION"
+            },
+            {
+                "name": "SEQUENCE_NUMBER"
+            },
+            {
+                "enable": true,
+                "name": "ALTERNATIVE_PARENT_SELECTION"
+            }
+        ],
+        "MODULES": [
+            {
+                "path": "core/net/mac/tsch"
+            },
+            {
+                "path": "core/net/pre"
+            },
+            {
+                "path": "core/net/sequence-number"
+            },
+            {
+                "path": "core/net/saved-ext-pp-ap"
+            },
+            {
+                "path": "core/net/saved-ext-pa"
+            }
+        ]
+    },
+    "MC": 3,
+    "MC_FRESH_PARENTS": 0,
+    "OVERH": true,
+    "RTX": 1,
+    "enable": true,
+    "example_dir": "examples/ipv6/disjoint",
+    "name": "9c96cc87d7514ab2d18c836012d76954c09a0743d696c8178f1ebbc1d7d8ae6b",
+    "number_of_packets": 250,
+    "preferredParentKillIntervalTimeInMicroSec": 300000000,
+    "preferredParentKillMaxHopsFromSender": 0,
+    "preferredParentKillMinHopsFromSender": 0,
+    "preferredParentKillStartTimeInMicroSec": 180000000,
+    "radioRatioRandomSetterIntervalTimeInMicroSec": 1800000000000,
+    "radioRatioRandomSetterMaxQualityInPercent": 75,
+    "radioRatioRandomSetterMinQualityInPercent": 50,
+    "radioRatioRandomSetterStartTimeInMicroSec": 120000000,
+    "seed_number": 0,
+    "src_file": "..",
+    "totalSimulationDurationInMicroSec": 1800000000
+}

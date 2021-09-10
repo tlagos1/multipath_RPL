@@ -1,0 +1,9 @@
+#ifndef __STATIC_SCHEDULER_GENERATED_H__
+#define __STATIC_SCHEDULER_GENERATED_H__
+
+#include "net/mac/tsch/tsch-conf.h" /* for TSCH_WITH_OVERHEARING */
+#include "net/mac/tsch/tsch-queue.h" /* for TSCH_MAC_MAX_FRAME_RETRIES */
+
+/*STATIC_SCHEDULING*/
+
+#endif /* __STATIC_SCHEDULER_GENERATED_H__ */

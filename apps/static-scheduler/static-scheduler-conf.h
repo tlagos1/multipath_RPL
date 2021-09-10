@@ -1,0 +1,4 @@
+#ifndef __STATIC_SCHEDULER_CONF_H__
+#define __STATIC_SCHEDULER_CONF_H__
+
+#endif /* __STATIC_SCHEDULER_CONF_H__ */

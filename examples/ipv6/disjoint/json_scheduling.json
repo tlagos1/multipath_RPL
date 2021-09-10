@@ -1,0 +1,8 @@
+{
+  "scheduling_parameter": {
+    "init_data_timeslot": 33,
+    "init_last_nodes": 333,
+    "slotframe": 0,
+    "timeslots": 357
+  }
+}

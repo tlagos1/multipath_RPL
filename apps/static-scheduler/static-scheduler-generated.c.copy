@@ -1,0 +1,11 @@
+#include "contiki.h"
+#include "static-scheduler-generated.h"
+#include "static-scheduler-private.h"
+
+/*---------------------------------------------------------------------------*/
+/* START GENERATED */
+/*---------------------------------------------------------------------------*/
+//Result 1
+//Goal value: No Goal, SAT only
+
+/*STATIC_SCHEDULING*/
